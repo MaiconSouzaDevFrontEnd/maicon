@@ -1,0 +1,32 @@
+:root {
+  --bg-white: #ffffff;
+  --fore-ground: #171717;
+  --black:#000;
+  --blue-primary: #0070f3;
+}
+
+
+html {
+  height: 100%;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
